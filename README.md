@@ -17,7 +17,7 @@ To run this game, follow these steps:
 2. Clone this repository by executing the following command:
 
     ```
-    git clone https://github.com/elyeandre/SimpleMazeGame 
+    https://github.com/elyeandre/simple-maze-game
     ```
 
 3. Inside the simple-maze-game folder, compile all the classes located in the src directory. This will place the compiled files into the bin folder:
