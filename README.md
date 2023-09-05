@@ -18,7 +18,7 @@ To run this game, follow these steps:
 3. Inside the SimpleMazeGame folder, compile all the java files located in the src directory. This will place the compiled files into the bin folder:
 
     ```
-    javac -d bin src/*.java
+    javac -d bin src/**/*.java
     ```
 
 3. Navigate to the `bin` folder:
