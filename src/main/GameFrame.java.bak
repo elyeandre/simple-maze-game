@@ -1,0 +1,37 @@
+package main;
+
+import java.applet.Applet;
+import java.awt.Frame;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowFocusListener;
+import static main.GamePanel.SCREENMAXHEIGHT;
+import static main.GamePanel.SCREENMAXWIDTH;
+public class GameFrame extends Applet {
+private GamePanel gamePanel;
+
+    @Override
+    public void init() {
+        Frame frame = (Frame)this.getParent().getParent();
+        frame.setTitle("Simple Maze Game");
+        frame.setResizable(false);
+        gamePanel = new GamePanel();
+        this.add(gamePanel);
+        this.setSize(SCREENMAXWIDTH,SCREENMAXHEIGHT);
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        gamePanel.setUpGame();
+        gamePanel.startGameThread();
+        frame.addWindowFocusListener(new WindowFocusListener() {
+            @Override
+            public void windowGainedFocus(WindowEvent e) {}
+            @Override
+            public void windowLostFocus(WindowEvent e) {
+                gamePanel.windowFocusLost();
+
+            }
+        });
+
+
+    }
+
+}
