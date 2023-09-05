@@ -46,7 +46,6 @@ public class UserInterface {
         ImportImages();
         heart = new Heart();
 	os = System.getProperty("os.name").toLowerCase();
-	System.out.println(os);
     }
 
     public void ImportFont() {
@@ -152,9 +151,8 @@ public class UserInterface {
     public void render(Graphics g) {
 	// Check the operating system
 	boolean isLinux = os.contains("linux");
-	System.out.println(isLinux);
         Graphics2D g2 = (Graphics2D) g;
-        g2.setFont(font.deriveFont(isLinux ? 20f: 5f));
+        g2.setFont(font.deriveFont(isLinux ? 20f: 15f));
         // Draw our panel
         panel(g);
         // Draw grapes indicator
