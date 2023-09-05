@@ -8,7 +8,6 @@ To run this game, follow these steps:
     ```
     java --version
     ```
-
     
 2. Clone this repository by executing the following command:
 
