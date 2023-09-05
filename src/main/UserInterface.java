@@ -46,6 +46,7 @@ public class UserInterface {
         ImportImages();
         heart = new Heart();
 	os = System.getProperty("os.name").toLowerCase();
+	System.out.println(os);
     }
 
     public void ImportFont() {
