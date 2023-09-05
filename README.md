@@ -20,14 +20,19 @@ To run this game, follow these steps:
     git clone https://github.com/elyeandre/SimpleMazeGame 
     ```
 
-3. Inside the SimpleMazeGame folder, compile all the classes located in the src directory. This will place the compiled files into the bin folder:
+3. Inside the simple-maze-game folder, compile all the classes located in the src directory. This will place the compiled files into the bin folder:
 
+    ```
+    cd simple-maze-game
+    ```
     ```
     javac -d bin src/**/*.java
     ```
 
 4. Inside of bin folder, execute the following command to create a JAR file named `mygame.jar`:
-
+    ```
+    cd bin
+    ```
     ```
     jar cvfm mygame.jar MANIFEST.MF .
     ```
