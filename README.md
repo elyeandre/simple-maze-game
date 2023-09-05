@@ -1,3 +1,6 @@
+
+![Screenshot](https://github.com/elyeandre/SimpleMazeGame/blob/11fed763cf14c6d31fc77fc247dad53cc2e90a73/screenshot.png)
+
 ## How to Run This Game
 
 To run this game, follow these steps:
