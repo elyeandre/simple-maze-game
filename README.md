@@ -2,16 +2,18 @@
 
 To run this game, follow these steps:
 
-1. Clone this repository by executing the following command:
 
-    ```
-    git clone https://github.com/elyeandre/SimpleMazeGame
-    ```
-
-2. Ensure that you have Java installed on your system. To check whether Java is installed, use the following command:
+1. Ensure that you have Java installed on your system. To check whether Java is installed, use the following command:
 
     ```
     java --version
+    ```
+
+    
+2. Clone this repository by executing the following command:
+
+    ```
+    git clone https://github.com/elyeandre/SimpleMazeGame
     ```
 
 3. Inside the SimpleMazeGame folder, compile all the classes located in the src directory. This will place the compiled files into the bin folder:
