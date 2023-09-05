@@ -152,6 +152,7 @@ public class UserInterface {
     public void render(Graphics g) {
 	// Check the operating system
 	boolean isLinux = os.contains("linux");
+	System.out.println(isLinux);
         Graphics2D g2 = (Graphics2D) g;
         g2.setFont(font.deriveFont(isLinux ? 20f: 5f));
         // Draw our panel
