@@ -24,7 +24,7 @@ To run this game, follow these steps:
     javac -d bin src/**/*.java
     ```
 
-4. Inside of bin folder, execute the following command to create a JAR file named `mygame.jar` using the `MANIFEST.MF` file:
+4. Inside of bin folder, execute the following command to create a JAR file named `mygame.jar`:
 
     ```
     jar cvfm mygame.jar MANIFEST.MF .
