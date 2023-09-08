@@ -23,6 +23,10 @@ fi
 # Navigate into the target folder
 cd "$target_folder"
 
+# Compile the Java classes
+javac -d bin src/**/*.java
+echo "Java classes compiled successfully."
+
 
 # Navigate into the bin folder
 cd bin
