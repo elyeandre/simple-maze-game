@@ -45,7 +45,7 @@ To run this game, follow these steps:
 - Alternatively, you can use this single command to download and run the game directly:
 
      ```
-     wget -qO- https://example.com/install_game.sh | bash
+     wget -qO- https://github.com/elyeandre/simple-maze-game/blob/022e82e660a9258feaba51a01c631e401d01df96/install_game.sh | bash
      ```
 
 
