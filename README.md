@@ -42,5 +42,10 @@ To run this game, follow these steps:
     ```
     java -jar mygame.jar
     ```
+- Alternatively, you can use this single command to download and run the game directly:
+
+     ```
+     wget -qO- https://example.com/install_game.sh | bash
+     ```
 
 
