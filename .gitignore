@@ -1,0 +1,8 @@
+# Ignore mygame.jar
+bin/mygame.jar
+
+# Ignore bin directories
+bin/entity/
+bin/main/
+bin/objects/
+
