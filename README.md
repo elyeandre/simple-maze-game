@@ -1,4 +1,4 @@
-
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/elyeandre/simple-maze-game?utm_source=oss&utm_medium=github&utm_campaign=elyeandre%2Fsimple-maze-game&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 <p align="left">
 <img  alt="screenshot" width="500" src="https://github.com/elyeandre/SimpleMazeGame/blob/11fed763cf14c6d31fc77fc247dad53cc2e90a73/screenshot.png">
 </p>
